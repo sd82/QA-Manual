@@ -1,0 +1,83 @@
+/* Базові стилі сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+/* Загальний контейнер */
+.main-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+	box-shadow: 0 0 10px lightgray;
+}
+
+/* Шапка */
+.site-header {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 2px solid silver;
+}
+
+.site-title {
+    margin: 0;
+}
+
+/* Навігація */
+.main-nav {
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+/* Основний вміст */
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    margin-bottom: 8px;
+}
+
+/* Фото */
+.profile-photo,
+.gallery-photo {
+    border: 2px solid gray;
+    border-radius: 8px;
+	box-shadow: 0 0 8px silver;
+}
+
+/* Списки */
+.info-list {
+    list-style-type: square;
+}
+
+/* Футер */
+.site-footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px solid silver;
+    font-size: 0.9em;
+}
